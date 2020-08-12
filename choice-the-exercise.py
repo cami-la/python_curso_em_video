@@ -25,6 +25,15 @@ from .exercise024 import play as play024
 from .exercise025 import play as play025
 from .exercise026 import play as play026
 from .exercise027 import play as play027
+from .exercise028 import play as play028
+from .exercise029 import play as play029
+from .exercise029 import play as play029
+from .exercise030 import play as play030
+from .exercise031 import play as play031
+from .exercise032 import play as play032
+from .exercise033 import play as play033
+from .exercise034 import play as play034
+from .exercise035 import play as play035
 
 
 def exercise():
@@ -110,6 +119,28 @@ def exercise():
     print("Python Exercise 026: first and last occurence of a string")
     play026()      
   elif(choice_exercise == 27):
-    print("Python Exercise 027: first and last name of a person")
-    play027()        
+    print("Python Exercise 027: guessing game v1.0")
+    play027()       
+  elif(choice_exercise == 29):
+    print("Python Exercise 029: eletronic radar")
+    play029()
+  elif(choice_exercise == 30):
+    print("Python Exercise 030: even or odd")
+    play030()
+  elif(choice_exercise == 31):
+    print("Python Exercise 031: travel cost")
+    play031()
+  elif(choice_exercise == 32):
+    print("Python Exercise 032: leap year")
+    play032()  
+  elif(choice_exercise == 33):
+    print("Python Exercise 033: bigger and smaller")
+    play033()    
+  elif(choice_exercise == 34):
+    print("Python Exercise 034: multiple increases")
+    play034() 
+  elif(choice_exercise == 35):
+    print("Python Exercise 035: analying a triangle v1.0")
+    play035() 
+
 
