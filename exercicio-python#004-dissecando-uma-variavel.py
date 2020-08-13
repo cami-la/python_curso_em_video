@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Faça um programa que leia algo do teclado e mostre na tela seu tipo primitivo e todas as informações possíveis sobre ele.
 '''
@@ -18,4 +19,4 @@ def play():
   print("Does this word begin with capital letter?", word.istitle())
 
 def exercise():
-  print("Make a program to read something of keyboard and show on the screen its primitive type and every possible informations about it.\n")
+  cprint("Faça um programa que leia algo do teclado e mostre na tela seu tipo primitivo e todas as informações possíveis sobre ele.\n","green", attrs=["blink"])

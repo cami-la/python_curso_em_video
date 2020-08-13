@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Crie um algorítmo que leia um número e mostre o seu dobro, o seu triplo e a raiz quadrada.
 '''
@@ -12,4 +13,4 @@ def play():
   print(f"The {number} has: double = {number * 2}, triple = { number * 3} and root = {number ** 0.5:.2f}.")
 
 def exercise():
-  print("Create a algorithm to read a number and show the its double, the its triple and the square root.\n")
+  cprint("Crie um algorítmo que leia um número e mostre o seu dobro, o seu triplo e a raiz quadrada.","green", attrs=["blink"])

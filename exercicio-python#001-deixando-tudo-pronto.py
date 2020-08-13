@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Crie um prgrama e escreva "Olá, mundo" na tela!
 '''
@@ -10,4 +11,5 @@ def play():
 
 
 def exercise():
-    print("Creat a programmin and write 'Hello world' on the screen!\n")
+    cprint("Creat a programmin and write 'Hello world' on the screen!\n", "green", attrs=["blink"])
+  

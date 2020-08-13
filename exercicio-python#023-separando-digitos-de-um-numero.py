@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados
 '''
@@ -21,4 +22,6 @@ def play():
 
 
 def exercise():
-  print("Make a program to read a number between 0 and 9999 and show on the screen each digit separated.\n")  
+  cprint("Make a program to read a number between 0 and 9999 and show on the screen each digit separated.\n","green", attrs=["blink"])  
+
+        

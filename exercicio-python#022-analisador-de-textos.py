@@ -35,6 +35,6 @@ def play():
 
 
 def exercise():
-  print("Create a program to read the name's person and show:")
-  print("- The name with all the letters capitalize and lowcase.")
-  print("- How many letters in all (without spaces)\n")  
+  cprint("""Create a program to read the name's person and show:)
+  - The name with all the letters capitalize and lowcase
+  - How many letters in all (without spaces)\n""","green", attrs=["blink"]) 

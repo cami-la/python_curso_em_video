@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Faça um programa que leia um número inteiro qualquer e mostre na tela sua tabuada.
 '''
@@ -17,4 +18,4 @@ def play():
   print("-" * 12)
 
 def exercise():
-  print("Make the program to read a integer any number and show its multiplication.\n")
+  cprint("Faça um programa que leia um número inteiro qualquer e mostre na tela sua tabuada.\n","green", attrs=["blink"])

@@ -1,4 +1,4 @@
-from termcolor import colored
+from termcolor import colored, cprint
 
 '''
 Crie um programa que leia um número inteiro e mostre na tela se ele é PAR ou ÍMPAR.
@@ -15,6 +15,6 @@ def play():
     print(colored(f"This number {number} is OLD.", "cyan"))
 
 def exercise():
-  print(colored("Create a program to reads a integer number and show on the screen if it is even or odd.\n", "magenta"))
+  cprint(colored("Create a program to reads a integer number and show on the screen if it is even or odd.\n","green", attrs=["blink"]))
 
 

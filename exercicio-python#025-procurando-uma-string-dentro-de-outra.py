@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA" no nome.
 '''
@@ -13,4 +14,4 @@ def play():
     print("No, your name hasn't 'SILVA'.")  
 
 def exercise():
-  print("Created a program to read the name's person and say if its has 'SILVA' in the name.\n")
+  cprint("Created a program to read the name's person and say if its has 'SILVA' in the name.\n","green", attrs=["blink"])

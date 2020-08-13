@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Faça um programa que leia um número inteiro e mostre na tela o seu antecessor e seu sucessor.
 '''
@@ -12,4 +13,5 @@ def play():
 
 
 def exercise():
-  print("Make a program to read a integer number and show on the screen its predecessor and its successor.\n")
+  cprint("Faça um programa que leia um número inteiro e mostre na tela o seu antecessor e seu sucessor.\n","green", attrs=["blink"])
+

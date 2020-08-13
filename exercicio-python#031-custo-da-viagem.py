@@ -15,4 +15,4 @@ def play():
     print(colored(f"The ticket price is {distance * 0.45}", "cyan"))  
 
 def exercise():
-  print(colored("Develop a program that asks for the distance of a trip in Km. Calculate the ticket price, charging R $ 0.50 per Km for trips of up to 200 km and R $ 0.45 for longer trips.\n", "magenta")) 
+  cprint(colored("Develop a program that asks for the distance of a trip in Km. Calculate the ticket price, charging R $ 0.50 per Km for trips of up to 200 km and R $ 0.45 for longer trips.\n", "green", attrs=["blink"])) 

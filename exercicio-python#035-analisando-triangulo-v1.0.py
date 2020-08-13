@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
 '''
@@ -18,4 +19,4 @@ def play():
     print("it isnt' a triangle")  
 
 def exercise():
-  print("Develop a program that reads the length of three straight and say to user if them can or can't form a triangle.\n")
+  cprint("Develop a program that reads the length of three straight and say to user if them can or can't form a triangle.\n","green", attrs=["blink"])

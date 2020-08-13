@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
 '''
@@ -12,4 +13,4 @@ def play():
 
 
 def exercise():
-  print("Make a program to read the name person and show a menssage welcome.\n")
+  cprint("Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.\n","green", attrs=["blink"])

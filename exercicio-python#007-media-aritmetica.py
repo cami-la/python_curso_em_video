@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Desenvolva um programa que leia duas notas de um aluno, calcule e mostre a sua média.
 '''
@@ -12,4 +13,4 @@ def play():
   print(f"The student average is {(grade1+grade2)/2:.1f} ")
 
 def exercise():
-  print("Develop a program to read two grade of a student, calculate and show the your average.\n")
+  print("Desenvolva um programa que leia duas notas de um aluno, calcule e mostre a sua média.\n","green", attrs=["blink"])

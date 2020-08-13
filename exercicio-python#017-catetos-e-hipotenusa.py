@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 from math import hypot #no módulo math tem uma função para calcular a hipotenusa.
 '''
 Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo. Calcule e mostre o comprimento da hipotenusa.
@@ -18,4 +19,4 @@ def play():
   print(f"The cathetu opposite is {cathetu_opposite}, the cathetu adyacente is {cathetu_adyacente} and the hypotenuse is {hypothenuse2:.2f}")
 
 def exercise():
-  print("Make a program to read the length of cathetu opposite and of cathetu adyacente of the rectangle triangle. Calculate and show the length hypotenuse.\n")
+  cprint("Make a program to read the length of cathetu opposite and of cathetu adyacente of the rectangle triangle. Calculate and show the length hypotenuse.\n","green", attrs=["blink"])

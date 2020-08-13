@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e em milimetros.
 '''
@@ -11,4 +12,4 @@ def play():
   print(f"Meter: {meter:.0f}m - Centimeter: {meter*100:.0f}cm - Milimeter: {meter*1000:.0f}mm")
 
 def exercise():
-  print("Write a program to read a value in meters and show converted in centimeters and milimeters.\n")
+  cprint("Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e em milimetros.\n" ,"green", attrs=["blink"])

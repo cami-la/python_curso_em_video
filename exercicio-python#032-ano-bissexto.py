@@ -1,5 +1,5 @@
 from datetime import date
-from termcolor import colored
+from termcolor import colored, cprint
 from time import sleep
 
 '''
@@ -17,9 +17,9 @@ def play():
     year = date.today().year
   
   if (year % 4 == 0 and year % 100 != 0 or year % 400 == 0):
-    print(colored(f"The year {year} is leap.", "cyan"))
+    print(colored(f"The year {year} is leap."))
   else:
-    print(colored(f"This year {year} isn't lear.", "cyan"))  
+    print(colored(f"This year {year} isn't lear."))  
 
 def exercise():
-  print(colored("Make a program that reads a any year and show if it is leap.\n", "magenta"))
+  cprint(colored("Make a program that reads a any year and show if it is leap.\n","green", attrs=["blink"]))

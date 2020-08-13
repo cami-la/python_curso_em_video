@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 from random import randint
 from time import sleep
 
@@ -20,4 +21,4 @@ def play():
     print(f"What pity, you missed. The number sort was {computer}." )  
 
 def exercise():
-  print("Write a program to make the computer 'think' of an integer between 0 and 5 and ask the user to try to find out which number was chosen by the computer. The program must write on the screen whether the user won or lost.\n")
+  cprint("Write a program to make the computer 'think' of an integer between 0 and 5 and ask the user to try to find out which number was chosen by the computer. The program must write on the screen whether the user won or lost.\n","green", attrs=["blink"])

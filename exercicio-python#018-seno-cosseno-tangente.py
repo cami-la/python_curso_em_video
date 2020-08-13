@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 from math import radians, sin, cos, tan 
 #o math tem o método de calcular o seno, o cosseno e a tangente. Mas fique atento ao detalhe, esses métodos recebem o valor do ângulo em radianto, logo, é necessário converter.
 '''
@@ -17,4 +18,4 @@ def play():
   print(f"The sine, cosine and tangent of the angle {angle_in_degree} is successively: {sine:.2f}, {cosine:.2f}, {tangent:.2f}")
 
 def exercise():
-  print("Make a program to read a any angle and show on the screen the sine, cosine and tangent value this angle.\n")
+  cprint("Make a program to read a any angle and show on the screen the sine, cosine and tangent value this angle.\n","green", attrs=["blink"])

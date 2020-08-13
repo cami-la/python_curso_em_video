@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
 '''
@@ -17,5 +18,5 @@ def play():
   print(f"Your first name is {name[0]} and your last name {name[len(name)-1]}.")
 
 def exercise():
-  print("Make a program to read the full name of a person, show then the first and the last name separately.\n")
+  cprint("Make a program to read the full name of a person, show then the first and the last name separately.\n","green", attrs=["blink"])
 

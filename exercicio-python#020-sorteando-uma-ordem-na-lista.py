@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 from random import randrange, choice, shuffle
 
 '''
@@ -24,7 +25,7 @@ def play():
 
 
 def exercise():
-  print("A teacher choice his four of students to introduce a work. Make a program to help him, writing the name's students on the screen the order random to introduce the work.\n")
+  cprint("A teacher choice his four of students to introduce a work. Make a program to help him, writing the name's students on the screen the order random to introduce the work.\n","green", attrs=["blink"])
 
 def ask_name_students():
   students = []

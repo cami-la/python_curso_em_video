@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 '''
 Crie um programa que leia dois numeros e mostre a soma entre eles.
 '''
@@ -9,7 +10,9 @@ def play():
   number1 = int(input("Type the first number: "))
   number2 = int(input("Type the second number: "))
 
-  print(f"\nThe sum between {number1} + {number2} is {number1 + number2}")
+  sum1_2 = number1 + number2
+
+  print(f"\nThe sum between {number1} + {number2} is {sum1_2}")
 
 
   ''''
@@ -20,4 +23,4 @@ def play():
   
 
 def exercise():
-  print("Create a program to read two numbers and show the sum between them.\n")
+  cprint("Crie um programa que leia dois numeros e mostre a soma entre eles.\n","green", attrs=["blink"])

@@ -1,3 +1,4 @@
+from termcolor import colored, cprint
 from math import trunc
 '''
 Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira.
@@ -15,4 +16,4 @@ def play():
 
 
 def exercise():
-  print("Create a program to read a any real number by keyboard and show on the screen the its whole portion.\n")
+  cprint("Create a program to read a any real number by keyboard and show on the screen the its whole portion.\n","green", attrs=["blink"])
