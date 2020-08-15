@@ -46,6 +46,15 @@ from .exercise042 import play as play042
 from .exercise043 import play as play043
 from .exercise044 import play as play044
 from .exercise045 import play as play045
+from .exercise046 import play as play046
+from .exercise047 import play as play047
+from .exercise048 import play as play048
+from .exercise049 import play as play049
+from .exercise050 import play as play050
+from .exercise051 import play as play051
+from .exercise052 import play as play052
+from .exercise053 import play as play053
+
 
 def exercise():
   choice_exercise = int(input("Choice the number of exercise: "))
@@ -273,6 +282,44 @@ def exercise():
     print("loading...")
     sleep(2)
     play045()  
-    
-  
+  elif(choice_exercise == 46):
+    cprint(" Python Exercise 046: countdown ", "green",  "on_red", attrs=["bold"])
+    print("loading...")
+    sleep(2)
+    play046()    
+  elif(choice_exercise == 47):
+    cprint(" Python Exercise 047: count of even ", "green",  "on_red", attrs=["bold"])
+    print("loading...")
+    sleep(2)
+    play047()     
+  elif(choice_exercise == 48):
+    cprint(" Python Exercise 048: sum odd multiples of three ", "green",  "on_red", attrs=["bold"])
+    print("loading...")
+    sleep(2)
+    play048()
+  elif(choice_exercise == 49):
+    cprint(" Python Exercise 049: multiplication v2.0 ", "green",  "on_red", attrs=["bold"])
+    print("loading...")
+    sleep(2)
+    play049()                  
+  elif(choice_exercise == 50):
+    cprint(" Python Exercise 050: multiplication of the even ", "green",  "on_red", attrs=["bold"])
+    print("loading...")
+    sleep(2)
+    play050()                    
+  elif(choice_exercise == 51):
+    cprint(" Python Exercise 051: arithmetical progression ", "green",  "on_red", attrs=["bold"])
+    print("loading...")
+    sleep(2)
+    play051()
+  elif(choice_exercise == 52):
+    cprint(" Python Exercise 052: prime numbers ", "green",  "on_red", attrs=["bold"])
+    print("loading...")
+    sleep(2)
+    play052()
+  elif(choice_exercise == 53):
+    cprint(" Python Exercise 053: prime numbers ", "green",  "on_red", attrs=["bold"])
+    print("loading...")
+    sleep(2)
+    play053()  
 
