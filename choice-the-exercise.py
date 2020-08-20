@@ -60,6 +60,25 @@ from .exercise056 import play as play056
 from .exercise057 import play as play057
 from .exercise058 import play as play058
 from .exercise059 import play as play059
+from .exercise060 import play as play060
+from .exercise061 import play as play061
+from .exercise062 import play as play062
+from .exercise063 import play as play063
+from .exercise064 import play as play064
+from .exercise065 import play as play065
+from .exercise067 import play as play067
+from .exercise068 import play as play068
+from .exercise069 import play as play069
+from .exercise070 import play as play070
+from .exercise071 import play as play071
+from .exercise072 import play as play072
+from .exercise073 import play as play073
+from .exercise074 import play as play074
+from .exercise075 import play as play075
+from .exercise076 import play as play076
+from .exercise077 import play as play077
+from .exercise078 import play as play078
+
 
 def exercise():
   choice_exercise = int(input("Choice the number of exercise: "))
@@ -107,11 +126,11 @@ def exercise():
     play010()
   elif (choice_exercise == 11):
     cprint(" Python Exercise 011: painting the wall ", "green",  "on_red", attrs=["bold"])
-    sleep(1)
+    sleep(2)
     play011()  
   elif (choice_exercise == 12):
     cprint(" Python Exercise 012: calculating discounts ", "green",  "on_red", attrs=["bold"])
-    sleep(1)
+    sleep(2)
     play012()
   elif (choice_exercise == 13):
     cprint(" Python Exercise 013: salary readjustment ", "green",  "on_red", attrs=["bold"])
@@ -298,6 +317,78 @@ def exercise():
     sleep(1)
     play058()    
   elif(choice_exercise == 59):
-    cprint(" Python Exercise 058: creating an options menu ", "green",  "on_red", attrs=["bold"])
+    cprint(" Python Exercise 059: creating an options menu ", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play059()     
+  elif(choice_exercise == 60):
+    cprint(" Python Exercise 060: fatorial calculate ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play060() 
+  elif(choice_exercise == 61):
+    cprint(" Python Exercise 061: arithmetic progression v2.0 ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play061()   
+  elif(choice_exercise == 62):
+    cprint(" Python Exercise 062: arithmetic super progression ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play062() 
+  elif(choice_exercise == 63):
+    cprint(" Python Exercise 063: finonacci sequence v1.0 ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play063()   
+  elif(choice_exercise == 64):
+    cprint(" Python Exercise 064: treating various values ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play064()  
+  elif(choice_exercise == 65):
+    cprint(" Python Exercise 065: bigger and smaller values ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play065()    
+  elif(choice_exercise == 67):
+    cprint(" Python Exercise 067: multiplication v3.0 ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play067()    
+  elif(choice_exercise == 68):
+    cprint(" Python Exercise 068: game even or odd ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play068()   
+  elif(choice_exercise == 69):
+    cprint(" Python Exercise 069: group data analysis ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play069()
+  elif(choice_exercise == 70):
+    cprint(" Python Exercise 070: statistics on products ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play070()   
+  elif(choice_exercise == 71):
+    cprint(" Python Exercise 071: ATM simulator ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play071()    
+  elif(choice_exercise == 72):
+    cprint(" Python Exercise 072: number in full ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play072()  
+  elif(choice_exercise == 73):
+    cprint(" Python Exercise 073: tuples with soccer team ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play073()     
+  elif(choice_exercise == 74):
+    cprint(" Python Exercise 074: largest and smallest value in tuple ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play074()    
+  elif(choice_exercise == 75):
+    cprint(" Python Exercise 075: data analysis in a tuple ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play075()      
+  elif(choice_exercise == 76):
+    cprint(" Python Exercise 076: price list with tuple ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play076()   
+  elif(choice_exercise == 77):
+    cprint(" Python Exercise 077: counting vowels in tuple ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play077()   
+  elif(choice_exercise == 78):
+    cprint(" Python Exercise 078: largest and smallest value in the list ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play078()   
