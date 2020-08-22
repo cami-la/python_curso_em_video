@@ -78,6 +78,11 @@ from .exercise075 import play as play075
 from .exercise076 import play as play076
 from .exercise077 import play as play077
 from .exercise078 import play as play078
+from .exercise079 import play as play079
+from .exercise080 import play as play080
+from .exercise081 import play as play081
+from .exercise082 import play as play082
+from .exercise083 import play as play083
 
 
 def exercise():
@@ -391,4 +396,24 @@ def exercise():
   elif(choice_exercise == 78):
     cprint(" Python Exercise 078: largest and smallest value in the list ", "green",  "on_red", attrs=["bold"])
     sleep(1)
-    play078()   
+    play078()  
+  elif(choice_exercise == 79):
+    cprint(" Python Exercise 079: unique values ​​in a list ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play079()    
+  elif(choice_exercise == 80):
+    cprint(" Python Exercise 080: ordered list without repetitions ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play080()   
+  elif(choice_exercise == 81):
+    cprint(" Python Exercise 081: extracting data from a list ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play081()
+  elif(choice_exercise == 82):
+    cprint(" Python Exercise 082: dividing values ​​into multiple lists ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play082()  
+  elif(choice_exercise == 83):
+    cprint(" Python Exercise 083: dividing values ​​into multiple lists ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play083()     
