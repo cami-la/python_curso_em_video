@@ -83,6 +83,11 @@ from .exercise080 import play as play080
 from .exercise081 import play as play081
 from .exercise082 import play as play082
 from .exercise083 import play as play083
+from .exercise084 import play as play084
+from .exercise085 import play as play085
+from .exercise086 import play as play086
+from .exercise087 import play as play087
+from .exercise088 import play as play088
 
 
 def exercise():
@@ -414,6 +419,26 @@ def exercise():
     sleep(1)
     play082()  
   elif(choice_exercise == 83):
-    cprint(" Python Exercise 083: dividing values ​​into multiple lists ", "green",  "on_red", attrs=["bold"])
+    cprint(" Python Exercise 083: validating mathematical expressions ", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play083()     
+  elif(choice_exercise == 84):
+    cprint(" Python Exercise 084: composite list and data analysis ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play084()  
+  elif(choice_exercise == 85):
+    cprint(" Python Exercise 085: list with even and odd ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play085()    
+  elif(choice_exercise == 86):
+    cprint(" Python Exercise 086: matriz in python ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play086()  
+  elif(choice_exercise == 87):
+    cprint(" Python Exercise 087: more about matriz in python ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play087()    
+  elif(choice_exercise == 88):
+    cprint(" Python Exercise 087: guesses for mega senna ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play088()      
