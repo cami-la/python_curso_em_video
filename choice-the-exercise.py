@@ -88,6 +88,7 @@ from .exercise085 import play as play085
 from .exercise086 import play as play086
 from .exercise087 import play as play087
 from .exercise088 import play as play088
+from .exercise089 import play as play089
 
 
 def exercise():
@@ -439,6 +440,10 @@ def exercise():
     sleep(1)
     play087()    
   elif(choice_exercise == 88):
-    cprint(" Python Exercise 087: guesses for mega senna ", "green",  "on_red", attrs=["bold"])
+    cprint(" Python Exercise 088: guesses for mega senna ", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play088()      
+  elif(choice_exercise == 89):
+    cprint(" Python Exercise 089: newsletter with composite lists ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play089()  
