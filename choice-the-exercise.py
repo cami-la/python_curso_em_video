@@ -88,7 +88,9 @@ from .exercise085 import play as play085
 from .exercise086 import play as play086
 from .exercise087 import play as play087
 from .exercise088 import play as play088
-from .exercise089 import play as play089
+from .exercise090 import play as play090
+from .exercise091 import play as play091
+from .exercise092 import play as play092
 
 
 def exercise():
@@ -447,3 +449,15 @@ def exercise():
     cprint(" Python Exercise 089: newsletter with composite lists ", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play089()  
+  elif(choice_exercise == 90):
+    cprint(" Python Exercise 090: dictionary in python ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play090()   
+  elif(choice_exercise == 91):
+    cprint(" Python Exercise 091: Python Craps ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play091()    
+  elif(choice_exercise == 92):
+    cprint(" Python Exercise 092: remployee record in python ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play092()    
