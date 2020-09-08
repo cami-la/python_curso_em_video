@@ -91,6 +91,7 @@ from .exercise088 import play as play088
 from .exercise090 import play as play090
 from .exercise091 import play as play091
 from .exercise092 import play as play092
+from .exercise093 import play as play093
 
 
 def exercise():
@@ -458,6 +459,10 @@ def exercise():
     sleep(1)
     play091()    
   elif(choice_exercise == 92):
-    cprint(" Python Exercise 092: remployee record in python ", "green",  "on_red", attrs=["bold"])
+    cprint(" Python Exercise 092: employee record in python ", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play092()    
+  elif(choice_exercise == 93):
+    cprint(" Python Exercise 093: football player registration ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play093()  
