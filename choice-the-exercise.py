@@ -92,6 +92,7 @@ from .exercise090 import play as play090
 from .exercise091 import play as play091
 from .exercise092 import play as play092
 from .exercise093 import play as play093
+from .exercise094 import play as play094
 
 
 def exercise():
@@ -466,3 +467,7 @@ def exercise():
     cprint(" Python Exercise 093: football player registration ", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play093()  
+  elif(choice_exercise == 94):
+    cprint(" Python Exercise 093: joining dictionaries and lists ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play094()    
