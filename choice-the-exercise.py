@@ -93,7 +93,10 @@ from .exercise091 import play as play091
 from .exercise092 import play as play092
 from .exercise093 import play as play093
 from .exercise094 import play as play094
-
+#from .exercise095 import play as play095
+from .exercise096 import play as play096
+from .exercise097 import play as play097
+from .exercise098 import play as play098
 
 def exercise():
   choice_exercise = int(input("Choice the number of exercise: "))
@@ -468,6 +471,19 @@ def exercise():
     sleep(1)
     play093()  
   elif(choice_exercise == 94):
-    cprint(" Python Exercise 093: joining dictionaries and lists ", "green",  "on_red", attrs=["bold"])
+    cprint(" Python Exercise 094: joining dictionaries and lists ", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play094()    
+  elif(choice_exercise == 96):
+    cprint(" Python Exercise 096: Efunction calculate area ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play096()  
+  elif(choice_exercise == 97):
+    cprint(" Python Exercise 097: a print special ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play097()  
+  elif(choice_exercise == 98):
+    cprint(" Python Exercise 098: counter function", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play098() 
+  
