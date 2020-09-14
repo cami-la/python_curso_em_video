@@ -93,7 +93,7 @@ from .exercise091 import play as play091
 from .exercise092 import play as play092
 from .exercise093 import play as play093
 from .exercise094 import play as play094
-#from .exercise095 import play as play095
+from .exercise095 import play as play095
 from .exercise096 import play as play096
 from .exercise097 import play as play097
 from .exercise098 import play as play098
@@ -478,6 +478,10 @@ def exercise():
     cprint(" Python Exercise 096: Efunction calculate area ", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play096()  
+  elif(choice_exercise == 95):
+    cprint(" Python Exercise 095: improving dictionaries ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play095()   
   elif(choice_exercise == 97):
     cprint(" Python Exercise 097: a print special ", "green",  "on_red", attrs=["bold"])
     sleep(1)
