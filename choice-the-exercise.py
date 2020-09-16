@@ -97,6 +97,9 @@ from .exercise095 import play as play095
 from .exercise096 import play as play096
 from .exercise097 import play as play097
 from .exercise098 import play as play098
+from .exercise099 import play as play099
+from .exercise100 import play as play100
+from .exercise101 import play as play101
 
 def exercise():
   choice_exercise = int(input("Choice the number of exercise: "))
@@ -490,4 +493,17 @@ def exercise():
     cprint(" Python Exercise 098: counter function", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play098() 
+  elif(choice_exercise == 99):
+    cprint(" Python Exercise 099: function that shows the biggest", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play099()   
+  elif(choice_exercise == 100):
+    cprint(" Python Exercise 100: draw and add functions ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play100() 
+  elif(choice_exercise == 101):
+    cprint(" Python Exercise 101: Voting functions ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play101()   
   
+
