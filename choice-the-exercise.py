@@ -100,6 +100,9 @@ from .exercise098 import play as play098
 from .exercise099 import play as play099
 from .exercise100 import play as play100
 from .exercise101 import play as play101
+from .exercise102 import play as play102
+from .exercise103 import play as play103
+
 
 def exercise():
   choice_exercise = int(input("Choice the number of exercise: "))
@@ -502,8 +505,15 @@ def exercise():
     sleep(1)
     play100() 
   elif(choice_exercise == 101):
-    cprint(" Python Exercise 101: Voting functions ", "green",  "on_red", attrs=["bold"])
+    cprint(" Python Exercise 101: voting functions ", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play101()   
-  
+  elif(choice_exercise == 102):
+    cprint(" Python Exercise 102: function to factorial ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play102() 
+  elif(choice_exercise == 103):
+    cprint(" Python Exercise 103: function to factorial ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play103()   
 
