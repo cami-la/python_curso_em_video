@@ -108,7 +108,8 @@ from .exercise107.main import play as play107
 from .exercise108.main import play as play108
 from .exercise109.main import play as play109
 from .exercise110.main import play as play110
-from .exercise111.utilitiescev.exercise111 import play as play111
+from .exercise111.exercise111 import play as play111
+from .exercise112.exercise112 import play as play112
 
 
 
@@ -552,3 +553,7 @@ def exercise():
     cprint(" Python Exercise 111: transforming modules into packages ", "green",  "on_red", attrs=["bold"])
     sleep(1)
     play111()
+  elif(choice_exercise == 112):
+    cprint(" Python Exercise 112: monetary data entry ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play112()
