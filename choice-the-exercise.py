@@ -102,6 +102,14 @@ from .exercise100 import play as play100
 from .exercise101 import play as play101
 from .exercise102 import play as play102
 from .exercise103 import play as play103
+from .exercise104 import play as play104
+from .exercise105 import play as play105
+from .exercise107.main import play as play107
+from .exercise108.main import play as play108
+from .exercise109.main import play as play109
+from .exercise110.main import play as play110
+from .exercise111.utilitiescev.exercise111 import play as play111
+
 
 
 def exercise():
@@ -515,5 +523,32 @@ def exercise():
   elif(choice_exercise == 103):
     cprint(" Python Exercise 103: function to factorial ", "green",  "on_red", attrs=["bold"])
     sleep(1)
-    play103()   
-
+    play103() 
+  elif(choice_exercise == 104):
+    cprint(" Python Exercise 104: validating data entry in Python ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play104()  
+  elif(choice_exercise == 105):
+    cprint(" Python Exercise 105: analyzing and generating dictionaries ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play105() 
+  elif(choice_exercise == 107):
+    cprint(" Python Exercise 107: exercising modules in python ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play107()
+  elif(choice_exercise == 108):
+    cprint(" Python Exercise 108: formatting Currencies in Python ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play108()
+  elif(choice_exercise == 109):
+    cprint(" Python Exercise 109: formatting Currencies in Python ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play109()
+  elif(choice_exercise == 110):
+    cprint(" Python Exercise 110: further reducing your program ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play110()
+  elif(choice_exercise == 111):
+    cprint(" Python Exercise 111: transforming modules into packages ", "green",  "on_red", attrs=["bold"])
+    sleep(1)
+    play111()
